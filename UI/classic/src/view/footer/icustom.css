@@ -1,0 +1,87 @@
+.head{
+
+background-color:#558C89;
+
+}
+
+.foot{
+
+background-color:#2b303e;
+
+}
+
+.footText
+{
+color:#D8D8D8;
+font-size: 160%;
+font-weight: normal;
+font-family: Arial;
+
+
+}
+
+.about
+{
+color:white;
+font-size: 160%;
+font-weight: normal;
+font-family: Arial;
+
+
+}
+
+.storeName
+{
+ position: absolute; 
+   top: 120px; 
+   left: 25px; 
+   width: 100%;
+	color: #0D5268;
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   //background: rgb(0, 0, 0); /* fallback color */
+   //background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+.button {
+    background-color: #336699; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+	font-size: 40px;
+    text-decoration: none;
+    display: inline-block;
+    
+	border-radius: 15px;
+}
+
+
+/*.button {
+background-color: #4CAF50;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}*/
+
+.button:hover {background-color: #003366}
+
+.button:active {
+  background-color: #003366;
+  transform: translateY(4px);
+}
+
+
+.roundpic
+{
+border-radius: 50%;
+}
